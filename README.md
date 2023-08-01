@@ -15,3 +15,8 @@ Test 3: Ok
 
 ## Contribution
 You can contribute for this project forking the repository and making pull requests :).
+
+## Problems
+### Trees
+#### Easy
+- [104. Maximum Depth of Binary Tree](Trees/MaximumDepthBinaryTree.php) - https://leetcode.com/problems/maximum-depth-of-binary-tree/
