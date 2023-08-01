@@ -3,7 +3,7 @@ Solve problems on Leetcode with PHP!
 
 ## Features
 You can run all scripts with this command:
-- ```php folder/script.php```. ```php php Trees/MaximumDepthBinaryTree.php```
+- ```php folder/script.php```. Eg: ```php Trees/MaximumDepthBinaryTree.php```
 
 It will output something like:
 
