@@ -20,6 +20,7 @@ You can contribute for this project forking the repository and making pull reque
 ### Arrays & Hashing
 #### Easy
 - [1. Two Sum](Arrays_and_Hashings/TwoSum.php) - https://leetcode.com/problems/two-sum/
+- [242. Valid Anagram](Arrays_and_Hashings/ValidAnagram.php) - https://leetcode.com/problems/valid-anagram/
 
 ### Trees
 #### Easy
