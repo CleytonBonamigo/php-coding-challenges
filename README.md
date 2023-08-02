@@ -8,9 +8,9 @@ You can run all scripts with this command:
 It will output something like:
 
 ```
-Test 1: Ok
-Test 2: Ok
-Test 3: Ok
+Test 1: Ok|Failed
+Test 2: Ok|Failed
+Test 3: Ok|Failed
 ```
 
 ## Contribution
@@ -21,6 +21,7 @@ You can contribute for this project forking the repository and making pull reque
 #### Easy
 - [1. Two Sum](Arrays_and_Hashings/TwoSum.php) - https://leetcode.com/problems/two-sum/
 - [242. Valid Anagram](Arrays_and_Hashings/ValidAnagram.php) - https://leetcode.com/problems/valid-anagram/
+- [217. Valid Anagram](Arrays_and_Hashings/ContainsDuplicate.php) - https://leetcode.com/problems/contains-duplicate/
 
 ### Trees
 #### Easy
