@@ -23,6 +23,8 @@ $expectedOutput = true;
 
 if($solution->isAnagram($s, $t) === $expectedOutput){
     echo 'Test 1: Ok'.PHP_EOL;
+}else{
+    echo 'Test 2: Failed'.PHP_EOL;
 }
 
 $s = 'rat';
@@ -31,4 +33,6 @@ $expectedOutput = false;
 
 if($solution->isAnagram($s, $t) === $expectedOutput){
     echo 'Test 2: Ok'.PHP_EOL;
+}else{
+    echo 'Test 2: Failed'.PHP_EOL;
 }

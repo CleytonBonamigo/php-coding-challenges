@@ -72,12 +72,18 @@ $solution = new Solution();
 
 if($solution->maxDepth(arrayToTree($root1)) === 3){
     echo 'Test 1: Ok'.PHP_EOL;
+}else{
+    echo 'Test 1: Failed'.PHP_EOL;
 }
 
 if($solution->maxDepth(arrayToTree($root2)) === 2){
     echo 'Test 2: Ok'.PHP_EOL;
+}else{
+    echo 'Test 2: Failed'.PHP_EOL;
 }
 
 if($solution->maxDepth(arrayToTree($root3)) === 0){
     echo 'Test 3: Ok'.PHP_EOL;
+}else{
+    echo 'Test 3: Failed'.PHP_EOL;
 }
