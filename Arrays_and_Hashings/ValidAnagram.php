@@ -1,5 +1,7 @@
 <?php
 
+require_once 'helpers.php';
+
 class Solution {
 
     /**
@@ -20,19 +22,9 @@ $solution = new Solution();
 $s = 'anagram';
 $t = 'nagaram';
 $expectedOutput = true;
-
-if($solution->isAnagram($s, $t) === $expectedOutput){
-    echo 'Test 1: Ok'.PHP_EOL;
-}else{
-    echo 'Test 2: Failed'.PHP_EOL;
-}
+checkResult($solution->isAnagram($s, $t) === $expectedOutput, 1);
 
 $s = 'rat';
 $t = 'car';
 $expectedOutput = false;
-
-if($solution->isAnagram($s, $t) === $expectedOutput){
-    echo 'Test 2: Ok'.PHP_EOL;
-}else{
-    echo 'Test 2: Failed'.PHP_EOL;
-}
+checkResult($solution->isAnagram($s, $t) === $expectedOutput, 2);

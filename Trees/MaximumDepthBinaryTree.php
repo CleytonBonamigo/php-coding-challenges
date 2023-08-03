@@ -2,6 +2,7 @@
 
 require_once "TreeNode.php";
 require_once "TreeHelper.php";
+require_once "helpers.php";
 
 class Solution {
 
@@ -64,26 +65,16 @@ class Solution {
     }
 }
 
-$root1 = [3,9,20,null,null,15,7];
-$root2 = [1,null,2];
-$root3 = null;
-
 $solution = new Solution();
 
-if($solution->maxDepth(arrayToTree($root1)) === 3){
-    echo 'Test 1: Ok'.PHP_EOL;
-}else{
-    echo 'Test 1: Failed'.PHP_EOL;
-}
+$root = [3,9,20,null,null,15,7];
+$expectedOutput = 3;
+checkResult($solution->maxDepth(arrayToTree($root)) === $expectedOutput, 1);
 
-if($solution->maxDepth(arrayToTree($root2)) === 2){
-    echo 'Test 2: Ok'.PHP_EOL;
-}else{
-    echo 'Test 2: Failed'.PHP_EOL;
-}
+$root = [1,null,2];
+$expectedOutput = 2;
+checkResult($solution->maxDepth(arrayToTree($root)) === $expectedOutput, 2);
 
-if($solution->maxDepth(arrayToTree($root3)) === 0){
-    echo 'Test 3: Ok'.PHP_EOL;
-}else{
-    echo 'Test 3: Failed'.PHP_EOL;
-}
+$root = null;
+$expectedOutput = 0;
+checkResult($solution->maxDepth(arrayToTree($root)) === $expectedOutput, 3);
