@@ -1,7 +1,7 @@
 <?php
 
 require_once "TreeNode.php";
-require_once "helper.php";
+require_once "TreeHelper.php";
 
 class Solution {
 
