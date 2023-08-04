@@ -1,5 +1,6 @@
 # PHP Leetcode Problems
 Solve problems on Leetcode with PHP!
+Inspired by [NeetCode Roadmap](https://neetcode.io/roadmap) flow.
 
 ## Features
 You can run all scripts with this command:
@@ -22,6 +23,10 @@ You can contribute for this project forking the repository and making pull reque
 - [1. Two Sum](Arrays_and_Hashings/TwoSum.php) - https://leetcode.com/problems/two-sum/
 - [242. Valid Anagram](Arrays_and_Hashings/ValidAnagram.php) - https://leetcode.com/problems/valid-anagram/
 - [217. Valid Anagram](Arrays_and_Hashings/ContainsDuplicate.php) - https://leetcode.com/problems/contains-duplicate/
+
+### Binary Search
+#### Easy
+- [704. Binary Search](Binary_Search/BinarySearch.php) - https://leetcode.com/problems/binary-search/
 
 ### Trees
 #### Easy
