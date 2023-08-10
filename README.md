@@ -4,7 +4,7 @@ Inspired by [NeetCode Roadmap](https://neetcode.io/roadmap) flow.
 
 ## Features
 You can run all scripts with this command:
-- ```php folder/script.php```. Eg: ```php Trees/MaximumDepthBinaryTree.php```
+- ```php folder/script.php```. Eg: ```php LeetCode/Trees/MaximumDepthBinaryTree.php```
 
 It will output something like:
 
@@ -31,3 +31,6 @@ You can contribute for this project forking the repository and making pull reque
 ### Trees
 #### Easy
 - [104. Maximum Depth of Binary Tree](LeetCode/Trees/MaximumDepthBinaryTree.php) - https://leetcode.com/problems/maximum-depth-of-binary-tree/
+
+## Others
+Problems that I want fun to solve, but do not remember the source or it was from job application assessment.
