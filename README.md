@@ -1,5 +1,5 @@
-# PHP Leetcode Problems
-Solve problems on Leetcode with PHP!
+# PHP Coding Challenges
+Solve problems from Leetcode and others with PHP!
 Inspired by [NeetCode Roadmap](https://neetcode.io/roadmap) flow.
 
 ## Features
@@ -17,7 +17,7 @@ Test 3: Ok|Failed
 ## Contribution
 You can contribute for this project forking the repository and making pull requests :).
 
-## Problems
+## Leetcode Problems
 ### Arrays & Hashing
 #### Easy
 - [1. Two Sum](Arrays_and_Hashings/TwoSum.php) - https://leetcode.com/problems/two-sum/
