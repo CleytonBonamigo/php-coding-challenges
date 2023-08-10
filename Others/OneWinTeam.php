@@ -2,6 +2,29 @@
 
 require "helpers.php";
 
+/**
+ * Imagine a tournament where teams are marked with letters from a to z.
+ * Our task is to find the team with just one win in the entire tournament and return its index (0-indexed).
+ * If there are multiple teams with just one win, we return the one with the earliest win.
+ * However, if there isn’t a single team with just one win, we return -1.
+ *
+ * For instance, consider the following examples:
+ * Example 1:
+ * input $s = “acabsecs”;
+ * output: 3
+ *
+ * Example 2:
+ * input $s = “finse”;
+ * output: 0
+ *
+ * Example 3:
+ * input $s = “aabb”;
+ * output: -1
+ *
+ * @param $s
+ * @return int|mixed
+ */
+
 function findTeamWithOneWin($s) {
     $wins = [];
     $len = strlen($s);
