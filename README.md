@@ -35,3 +35,4 @@ You can contribute for this project forking the repository and making pull reque
 ## Others
 Problems that I want fun to solve, but do not remember the source or it was from job application assessment.
 - [One Win Team](Others/OneWinTeam.php) - [Explanation](https://medium.com/@CleytonBonamigo/solving-the-one-win-team-problem-with-php-an-analytical-approach-3bd11a049bf8)
+- [Max Points](Others/MaxPoints.php) - [Explanation](https://medium.com/@CleytonBonamigo/maximizing-points-in-a-paper-cut-an-engaging-problem-solved-with-php-26387de2c9b6)
